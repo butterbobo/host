@@ -19,6 +19,15 @@ ff02::3 ip6-allhosts
 
 
 ## Start ##
+127.0.0.53 gstatic.com
+127.0.0.53 .gstatic.com
+127.0.0.53 googletagmanager.com
+127.0.0.53 .googletagmanager.com
+127.0.0.53 .datadome.co
+127.0.0.53 js.datadome.co
+127.0.0.53 js.datadome.com
+127.0.0.53 .geotrust.com
+127.0.0.53 .digicert.com
 127.0.0.53 sea.k8s.garenanow.com
 127.0.0.53 schemas.microsoft.com
 127.0.0.53 .microsoft.com
