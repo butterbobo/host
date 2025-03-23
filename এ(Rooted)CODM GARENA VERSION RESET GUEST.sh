@@ -28,7 +28,7 @@ rm -rf $GUEST2
 echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
     <string name='"apm_user_name"'>$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM</string>
-    <string name='"APP_VERSION"'>1.6.41#26190</string>
+    <string name='"APP_VERSION"'>1.6.50#27294</string>
 </map>" > $GUEST2
 
 sleep 2
