@@ -28,11 +28,13 @@ sed -i "s/$BP1/$STR/g" /data/system/users/0/settings_ssaid.xml
 sleep 2
 echo Wait a moment...
 
+RANDOM=$(grep -o 'value="[a-zA-Z0-9]*"*' | cut -d '"' -f2)
+
 GUEST1="/data/user/0/com.garena.game.codm/shared_prefs/com.garena.msdk.persist.fallback.xml"
 rm -rf $GUEST1
 echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
-    <string name='"com.garena.msdk.guest_password"'>$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM</string>
+    <string name='"com.garena.msdk.guest_password"'>$RANDOM'-'$RANDOM$RANDOM'-'$RANDOM'-'$RANDOM$RANDOM</string>
     <string name='"com.garena.msdk.guest_uid"'>$RANDOM$RANDOM$RANDOM$RANDOM</string>
 </map>" > $GUEST1
 
@@ -43,8 +45,8 @@ GUEST2="/data/user/0/com.garena.game.codm/shared_prefs/apm_cfg.xml"
 rm -rf $GUEST2
 echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
-    <string name='"apm_user_name"'>$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM$RANDOM</string>
-    <string name='"apm_version_check"'>1.6.50#27294</string>
+    <string name='"apm_user_name"'>$RANDOM'-'$RANDOM$RANDOM'-'$RANDOM'-'$RANDOM$RANDOM</string>
+    <string name='"apm_version_check"'>1.6.52#27570</string>
 </map>" > $GUEST2
 
 sleep 2
