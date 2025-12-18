@@ -41,6 +41,11 @@ ff02::3 ip6-allhosts
 127.0.0.53 js.datadome.com
 127.0.0.53 .geotrust.com
 127.0.0.53 .digicert.com
+127.0.0.53 003.sea.k8s.garenanow.com
+127.0.0.53 148.222.70.31
+127.0.0.53 148.222.67.254
+127.0.0.53 10.197.255.38
+127.0.0.53 .sea.k8s.garenanow.com
 127.0.0.53 sea.k8s.garenanow.com
 127.0.0.53 schemas.microsoft.com
 127.0.0.53 .microsoft.com
