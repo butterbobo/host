@@ -340,7 +340,6 @@ ff02::3 ip6-allhosts
 127.0.0.53 sp.tencent.com
 127.0.0.53 rfq.tencent.com
 127.0.0.53 ad.tencent.com
-127.0.0.53 0.0.0.1
 127.0.0.53 117.135.172.162
 127.0.0.53 140.206.161.147
 127.0.0.53 140.207.62.16
@@ -426,22 +425,6 @@ ff02::3 ip6-allhosts
 127.0.0.53 tapjoy.jp
 127.0.0.53 tapjoy.com
 127.0.0.53 jp.tapjoy.com
-127.0.0.53 192.0.2.111
-127.0.0.53 192.168.31.1
-127.0.0.53 192.168.0.1
-127.0.0.53 192.168.1.1
-127.0.0.53 192.168.31.*
-127.0.0.53 192.168.0.*
-127.0.0.53 192.168.1.*
-127.0.0.53 10.196.138.200
-127.0.0.53 10.0.0.1
-127.0.0.53 10.0.0.16
-127.0.0.53 10.0.0.17
-127.0.0.53 10.0.0.27
-127.0.0.53 1.1.1.1
-127.0.0.53 8.8.8.8
-127.0.0.53 8.8.4.4
-127.0.0.53 114.114.114.114
 127.0.0.53 cn.voice.gcloudcs.com
 127.0.0.53 cn.voice.gcloudcs.com:10001
 127.0.0.53 nav.cx
@@ -893,7 +876,7 @@ ff02::3 ip6-allhosts
 0:0:0:0:ffff:0000:0000 .mgl.lobby.igamecj.com
 0:0:0:0:ffff:0000:0000 .apple4.igamecj.com
 0:0:0:0:ffff:0000:0000 .na-jsproxy.igamecj.com
-l0:0:0:0:ffff:0000:0000 .gl.public.igamecj.com
+0:0:0:0:ffff:0000:0000 .gl.public.igamecj.com
 0:0:0:0:ffff:0000:0000 .sgliteping.sa.igamecj.com
 0:0:0:0:ffff:0000:0000 .lgl.lobby.igamecj.com
 0:0:0:0:ffff:0000:0000 .sgliteping.ap.igamecj.com
@@ -22495,6 +22478,8 @@ l0:0:0:0:ffff:0000:0000 gl.public.igamecj.com
 127.0.0.53 184.51.137.220
 127.0.0.53 eaq2mm-cdn-settings.appsflyersdk.com
 127.0.0.53 .appsflyersdk.com
+127.0.0.53 003.sea.k8s.garenanow.com
+127.0.0.53 148.222.70.31
 127.0.0.53 sea.k8s.garenanow.com
 
 ## Speed ##
