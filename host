@@ -17,6 +17,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 255.255.255.255 255.255.255.255
 
+127.0.0.53 .miniclippt.com
+127.0.0.53 .pool.miniclippt.com
+127.0.0.53 config.inmobi.com
+127.0.0.53 lh6.ggpht.com
 
 ## Start ##
 127.0.0.53 .warsongmobile.com
